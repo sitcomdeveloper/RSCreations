@@ -13,4 +13,5 @@ export class WebserviceService {
     const url="https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=74da004083014362a442eb198a6d2fde";
     return this.http.get(url);
   }
+  // health,sports
 }
