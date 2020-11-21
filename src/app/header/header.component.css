@@ -2,3 +2,14 @@ img {
     height: 95px;
     /* width: 112px; */
 }
+nav.navbar.navbar-expand-lg.navbar-light.p-2 {
+    background-color: whitesmoke;
+}
+/* .h1 {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+} */
