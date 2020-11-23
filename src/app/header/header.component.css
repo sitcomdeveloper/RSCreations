@@ -1,9 +1,23 @@
 img {
     height: 95px;
+    /* image-rendering: pixelated; */
+    /* background-color: color; */
+    /* background-blend-mode: mode; */
+    /* box-shadow: 0 0 8px 8px white inset; */
     /* width: 112px; */
 }
 nav.navbar.navbar-expand-lg.navbar-light.p-2 {
-    background-color: whitesmoke;
+    background-color: white;
+  
+    /* background: hsla(26, 58%, 23%, 1);
+
+background: linear-gradient(270deg, hsla(26, 58%, 23%, 1) 0%, hsla(30, 15%, 64%, 1) 100%);
+
+background: -moz-linear-gradient(270deg, hsla(26, 58%, 23%, 1) 0%, hsla(30, 15%, 64%, 1) 100%);
+
+background: -webkit-linear-gradient(270deg, hsla(26, 58%, 23%, 1) 0%, hsla(30, 15%, 64%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5e3719", endColorstr="#b2a496", GradientType=1 ); */
 }
 /* .h1 {
     background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
