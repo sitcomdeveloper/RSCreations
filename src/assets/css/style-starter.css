@@ -9914,7 +9914,8 @@ h4.sub-title {
 
 .w3l-index-block4 .features15-col-text:hover div.features15-para h4 {
   transition: 0.3s ease-in-out;
-  color: var(--secondary-color); }
+  color: var(--secondary-color); 
+}
 
 .w3l-index-block4 .features15-para h4:hover {
   transition: 0.3s ease-in-out;

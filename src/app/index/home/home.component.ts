@@ -18,8 +18,9 @@ export class HomeComponent implements OnInit {
     script.defer = true;
     body.appendChild(script);
   }
-  
   ngOnInit(): void {
     this.loadScript("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js");
+    // this.loadScript("assets/js/clientlist.js"); assets/js/owl.carousel.js
+    this.loadScript("assets/js/owl.carousel.js");
   }
 }

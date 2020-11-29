@@ -6,7 +6,7 @@
   <title>Saavy Technologies</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="assets/images/se.jpeg">
+  <link rel="icon" type="image/x-icon" href="assets/images/fst.jpeg">
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/owl.carousel.js"></script>
@@ -28,9 +28,6 @@
   <!-- blog -->
   <!-- <link rel="stylesheet" href="/images/demobar_w3_4thDec2019.css"> -->
   <!-- blog -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 </head>
 
 <body>
@@ -55,7 +52,7 @@
       document.documentElement.scrollTop = 0;
     }
   </script>
-  <!-- <script>
+  <script>
     $(document).ready(function () {
       $('.owl-one').owlCarousel({
         loop: true,
@@ -86,7 +83,7 @@
         }
       })
     })
-  </script> -->
+  </script>
   <!-- //script for owlcarousel -->
 
   <!-- disable body scroll which navbar is in active -->
@@ -182,48 +179,6 @@
     });
   </script> -->
   <!-- blog -->
-
-  <script>
-   $(document).ready(function(){
-
-if($('.brands_slider').length)
-{
-var brandsSlider = $('.brands_slider');
-
-brandsSlider.owlCarousel(
-{
-loop:true,
-autoplay:true,
-autoplayTimeout:5000,
-nav:false,
-dots:false,
-autoWidth:true,
-items:8,
-margin:42
-});
-
-if($('.brands_prev').length)
-{
-var prev = $('.brands_prev');
-prev.on('click', function()
-{
-brandsSlider.trigger('prev.owl.carousel');
-});
-}
-
-if($('.brands_next').length)
-{
-var next = $('.brands_next');
-next.on('click', function()
-{
-brandsSlider.trigger('next.owl.carousel');
-});
-}
-}
-
-
-});
-    </script>
 </body>
 
 </html>
